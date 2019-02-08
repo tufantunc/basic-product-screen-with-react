@@ -2,8 +2,9 @@
   "name": "create-next-example-app",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "./node_modules/next/dist/bin/next build",
+    "heroku-postbuild": "npm run build",
+    "start": "./node_modules/next/dist/bin/next start -p $PORT"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",

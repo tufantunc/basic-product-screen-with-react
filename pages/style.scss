@@ -1,0 +1,33 @@
+body {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+    &:active, &:focus {
+        outline: none;
+    }
+}
+
+a {
+    color: #437dc7;
+    text-decoration: none;
+
+    &:hover {
+        color: #437dc7;
+        text-decoration: underline;
+    }
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto 0;
+    padding: 15px;
+    width: 920px;
+}

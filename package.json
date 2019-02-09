@@ -1,5 +1,5 @@
 {
-  "name": "create-next-example-app",
+  "name": "basic-product-screen-react",
   "scripts": {
     "dev": "next",
     "build": "./node_modules/next/dist/bin/next build",
